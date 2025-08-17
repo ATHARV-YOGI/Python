@@ -1,0 +1,11 @@
+def no(n) :
+    if n==1 : 
+      print(n) 
+      return 
+    no(n-1)
+    print(n)
+
+
+n = int(input("give the no : "))    
+
+no(n)
